@@ -11,17 +11,17 @@
 ### 🔴 1.1 Kasutaja kirjeldus ja eesmärgid
 Kellel on probleem ja miks see lahendamist vajab? Mis on lahenduse oodatud kasu? Milline on hetkel eksisteeriv lahendus?
 
-> Probleem on see, et tudeng ei tea, millised õppeained olemas on ja ei oska kuskilt otsida. Kasuks on see, et leiad kiiresti seda, mida sa otsid ja säästad aega. ÕISis on robustne lahendus, kus saab otsida ainult aine nime ja mõnede filtrite põhjal. 
+> Probleem on see, et tudeng ei tea, millised õppeained olemas on, ja ei oska kuskilt otsida. ÕISis ei näe eelmiste semestrite aineid, osad on peidus. Kasuks on see, et leiad kiiresti seda, mida sa otsid ja säästad aega. Sa ei leia aineid, millest tegelikult oleksid väga huvitatud. ÕISis on robustne lahendus, kus saab otsida ainult aine nime ja mõnede filtrite põhjal. Kui sa ei tea, mida otsida, siis on raske midagi leida. 
 
 ### 🔴 1.2 Edukuse mõõdikud
 Kuidas mõõdame rakenduse edukust? Mida peab rakendus teha suutma?
 
-> Rakendus leiab vastavalt kirjeldusele top 5 kõige lähedasemat vastet. Programm on edukas kui vastus leitakse mõistliku kiirusega ja info on relevantne.
+> Rakendus leiab vastavalt kirjeldusele top 5 kõige lähedasemat vastet. Programm on edukas kui vastus leitakse mõistliku kiirusega ja info on relevantne. Hea näidik oleks kui võetakse rohkem valikaineid või instituudiväliseid aineid. Tagasisidet saaks koguda. Testcase'id testimiseks. 
 
 ### 🔴 1.3 Ressursid ja piirangud
 Millised on ressursipiirangud (nt aeg, eelarve, tööjõud, arvutusvõimsus)? Millised on tehnilised ja juriidilised piirangud (GDPR, turvanõuded, platvorm)? Millised on piirangud tasuliste tehisintellekti mudelite kasutamisele?
 
-> Peamised piirangud on arvutusvõimsus ja aeg. Oluline küsimus on andmekaitse vestluse sisu ja muude antud andmete poolest. 
+> Peamised piirangud on arvutusvõimsus ja arenduse aeg. Oluline küsimus on andmekaitse vestluse sisu poolest. Makseinfo peab olema konfidentsiaalne. 
 
 <br>
 <br>
@@ -33,22 +33,22 @@ Millised on ressursipiirangud (nt aeg, eelarve, tööjõud, arvutusvõimsus)? Mi
 ### 🟠 2.1 Andmevajadus ja andmeallikad
 Milliseid andmeid (ning kui palju) on lahenduse toimimiseks vaja? Kust andmed pärinevad ja kas on tagatud andmetele ligipääs?
 
-> Andmed on olemas ja pärinevad ÕISist. Ligipääs on tagatud, see on avalik informatsioon. Andmed on algselt töötlemata. Kui eeldada, et meie programm töötab eesti keeles, siis on vaja ainult eestikeelseid andmeid. Kindlast on vaja ainete põhilist infot (nimi, kood, EAP, kirjeldus, asukoht, eeldusained, hindamine jpm.).
+> Andmed on olemas ja pärinevad ÕISist. Oleks vaja kindlasti paari viimase semesti ainete andmeid. Ligipääs on tagatud, see on avalik informatsioon. Andmed on algselt töötlemata. Kui eeldada, et meie programm töötab eesti keeles, siis on vaja ainult eestikeelseid andmeid. Kindlast on vaja ainete põhilist infot (nimi, kood, EAP, kirjeldus, asukoht, eeldusained, hindamine jpm.).
 
 ### 🟠 2.2 Andmete kasutuspiirangud
 Kas andmete kasutamine (sh ärilisel eesmärgil) on lubatud? Kas andmestik sisaldab tundlikku informatsiooni?
 
-> Andmete kasutamine on avalik informatsioon. Tundlikku informatsiooni ei sisalda. Äri...
+> Andmete kasutamine on avalik informatsioon, aga sisaldab võimalikke isikuandmeid, seega ei ole hetkeseisuga ärieesmärkidel kasutatav. 
 
 ### 🟠 2.3 Andmete kvaliteet ja maht
 Millises formaadis andmeid hoiustatakse? Mis on andmete maht ja andmestiku suurus? Kas andmete kvaliteet on piisav (struktureeritus, puhtus, andmete kogus) või on vaja märkimisväärset eeltööd?
 
-> Andmed on kraabitud ja on csv formaadis, mittetöötlemata. Algne andmekvaliteet ei ole kindlast piisav. Andmed vajavad märkimisväärset eeltööd. Algandmeid on palju 50MB. 
+> Andmed on kraabitud ja on csv formaadis, mittetöötlemata. Algne andmekvaliteet ei ole kindlast piisav. Andmed vajavad märkimisväärset eeltööd. Algandmeid on palju, umbes 45.3MB. 223x3031.
 
 ### 🟠 2.4 Andmete kirjeldamise vajadus
 Milliseid samme on vaja teha, et kirjeldada olemasolevaid andmeid ja nende kvaliteeti.
 
-> Teha andmeanalüüsi ja uurida väljade sisu ja tüüpe. 
+> Teha andmeanalüüsi ja uurida väljade sisu ja formaati.
 
 <br>
 <br>
@@ -65,7 +65,7 @@ Milliseid samme on vaja teha andmete puhastamiseks ja standardiseerimiseks? Kui 
 ### 🟡 3.2 Tehisintellektispetsiifiline ettevalmistus
 Kuidas andmed tehisintellekti mudelile sobivaks tehakse (nt tükeldamine, vektoriseerimine, metaandmete lisamine)?
 
-> Keegi teeb. 
+> Andmetöötlusest peaks piisama. 
 
 <br>
 <br>
