@@ -9,4 +9,6 @@ Eelfiltrid:
 
 Minimaalsed andmed, mida kasutada:
 <br>
-EAP, eristav/mitteeristav, kevad/sügis, keel, eksam, description, eeldusained, õpiväljundid, version__target__code_main_structrual_unit__code - asukoht
+1) metadata: EAP, eristav/mitteeristav, kevad/sügis, keel, eksam, version__target__code_main_structrual_unit__code - asukoht
+<br>
+2) kirjeldused: description, eeldusained, õpiväljundid
