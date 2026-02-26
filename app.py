@@ -12,6 +12,8 @@ st.caption("Vali vasakult menüüst filtrid ja kirjelda, mida soovid otsida.")
 JOIN_COL = "unique_ID"
 CITY_COL = "linn"
 SEM_COL  = "semester"
+HIN_COL = "hindamisviis"
+KEEL_COL = "keel"
 EAP_COL  = "eap"
 
 CITY_MAP = {
@@ -24,6 +26,13 @@ CITY_MAP = {
     "tõravere alevik": "toravere",
 }
 
+HINDAMINE_MAP = {
+    "eristav (a, b, c, d, e, f, mi)" : "eristav", 
+    "eristamata (arv, m.arv, mi)" : "eristamata", 
+    "kaitsmine" : "eristav"
+}
+
+
 UI_TO_NORM = {
     "Tartu": "tartu",
     "Tallinn": "tallinn",
@@ -32,6 +41,8 @@ UI_TO_NORM = {
     "Pärnu": "parnu",
     "Tõravere": "toravere",
     "Muu": "muu",
+    "Eristav" : "eristav",
+    "Eristamata" : "eristamata"
 }
 
 if "stats" not in st.session_state:
@@ -55,15 +66,11 @@ def normalize_city(x) -> str:
     key = str(x).strip().lower()
     return CITY_MAP.get(key, "muu")
 
-
-# embed mudel, täisandmestik ja vektorandmebaas läheb cache'i
-@st.cache_resource
-def get_models():
-    embedder = SentenceTransformer("BAAI/bge-m3")
-    df = pd.read_csv("data/puhtad_andmed.csv")
-    embeddings_df = pd.read_pickle("data/puhtad_andmed_embeddings.pkl")
-    return embedder, df, embeddings_df
-embedder, df, embeddings_df = get_models()
+def normalize_hindamine(x) -> str:
+    if pd.isna(x) or str(x).strip() == "":
+        return "muu"  # or "puudub"
+    key = str(x).strip().lower()
+    return HINDAMINE_MAP.get(key, "muu")
 
 
 # külgriba
@@ -75,15 +82,15 @@ with st.sidebar:
 
     eap_choice = st.number_input("EAP", min_value=0, max_value=60, value=0, step=1)
 
-    use_city = st.checkbox("Kasuta linna filtrit", value=False)
+    use_more = st.checkbox("Kasuta muusi filreid", value=False)
+    hindamine_choice = "Kõik"
+    keel_choice = "Kõik"
     city_choice = "Kõik"
-    if use_city:
-        city_choice = st.selectbox(
-            "Linn",
-            ["Kõik", "Tartu", "Tallinn", "Viljandi", "Narva", "Pärnu", "Tõravere", "Muu"],
-            index=0
-        )
-        st.caption("Märkus: puuduva linna korral eeldame Tartut.")
+
+    if use_more:
+        hindamine_choice = st.selectbox("Hindamine", ["Kõik", "Eristav", "Eristamata"])
+        keel_choice = st.selectbox("keel", ["Kõik", "Eesti keel", "Inglise keel", "Vene keel", "Saksa keel", "Prantsuse keel", "Hispaania keel", "Jaapani keel", "Korea keel"])
+        city_choice = st.selectbox("Linn", ["Kõik", "Tartu", "Tallinn", "Viljandi", "Narva", "Pärnu", "Tõravere", "Muu"],index=0)
 
 
 # 1. alustame
@@ -93,6 +100,15 @@ if "messages" not in st.session_state:
 for message in st.session_state.messages:
     with st.chat_message(message["role"]):
         st.markdown(message["content"])
+
+# embed mudel, täisandmestik ja vektorandmebaas läheb cache'i
+@st.cache_resource
+def get_models():
+    embedder = SentenceTransformer("BAAI/bge-m3")
+    df = pd.read_csv("data/puhtad_andmed.csv")
+    embeddings_df = pd.read_pickle("data/puhtad_andmed_embeddings.pkl")
+    return embedder, df, embeddings_df
+embedder, df, embeddings_df = get_models()
 
 # 3. kuulame kasutaja sõnumit
 if prompt := st.chat_input("Kirjelda, mida soovid otsida..."):
@@ -114,7 +130,6 @@ if prompt := st.chat_input("Kirjelda, mida soovid otsida..."):
 
                 # merge and CREATE city_norm (THIS is where normalize_city is called)
                 merged_df = pd.merge(df, embeddings_df, on=JOIN_COL, how="inner").copy()
-                merged_df["city_norm"] = merged_df[CITY_COL].apply(normalize_city)
 
                 # build filter mask
                 mask = pd.Series(True, index=merged_df.index)
@@ -125,7 +140,18 @@ if prompt := st.chat_input("Kirjelda, mida soovid otsida..."):
                 if int(eap_choice) != 0:
                     mask &= (merged_df[EAP_COL] == int(eap_choice))
 
-                if use_city and city_choice != "Kõik":
+                merged_df["hindamine_norm"] = merged_df[HIN_COL].apply(normalize_hindamine)
+                if use_more and hindamine_choice != "Kõik":
+                    chosen_norm = UI_TO_NORM[hindamine_choice]
+                    mask &= (merged_df["hindamine_norm"] == chosen_norm)
+                    
+                if use_more and keel_choice != "Kõik":
+                    mask &= merged_df[KEEL_COL].fillna("eesti keel").apply(
+                        lambda s: keel_choice.lower() in [x.strip().lower() for x in s.split(",") if x.strip()]
+                    )
+                
+                merged_df["city_norm"] = merged_df[CITY_COL].apply(normalize_city)
+                if use_more and city_choice != "Kõik":
                     chosen_norm = UI_TO_NORM[city_choice]
                     mask &= (merged_df["city_norm"] == chosen_norm)
 
@@ -160,8 +186,9 @@ if prompt := st.chat_input("Kirjelda, mida soovid otsida..."):
                 system_prompt = {
                     "role": "system", 
                     "content": (
-                        "Oled ülikooli kursusenõustaja. Soovita kasutajale kursusi allolevast nimekirjast. "
-                        "Vastuses maini kindlasti kursuste nime, ainekoodi, EAP arvu, kevad või sügissemestrit ja kui võimalik, siis toimumise asukohta. \n"
+                        "Oled ülikooli kursusenõustaja. Soovita kasutajale kursusi allolevast nimekirjast. "                        
+                        "Ära vasta mõttepunktidena, vaid pane tekst pigem lõiguna kirja, et säästa ruumi. "
+                        "Vastuses maini kindlasti kursuste nime esimesena, ainekoodi, EAP arvu, kevad või sügissemestrit, hindamisviisi, toimumise asukohta. "
                         f"Kursused:\n\n{context_text}"
                     )
                 }
