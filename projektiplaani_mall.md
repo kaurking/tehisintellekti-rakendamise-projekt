@@ -76,28 +76,28 @@ Fookus: Tehisintellekti rakendamise süsteemi komponentide ja disaini kirjeldami
 ### 🟢 4.1 Komponentide valik ja koostöö
 Millist tüüpi tehisintellekti komponente on vaja rakenduses kasutada? Kas on vaja ka komponente, mis ei sisalda tehisintellekti? Kas komponendid on eraldiseisvad või sõltuvad üksteisest (keerulisem agentsem disan)?
 
-> ...
+> Esiteks on vaja vektoresituse mudelit. Vaja on LLMi mudelit, mis genereerib RAGist saadud info põhjal vastuse. KOmponentide rakendamine toimub üksteise järel.  
 
 ### 🟢 4.2 Tehisintellekti lahenduste valik
 Milliseid mudeleid on plaanis kasutada? Kas kasutada valmis teenust (API) või arendada/majutada mudelid ise?
 
-> ...
+> Hetkel kasutab embedimiseks ****** ja LLM on google/gemma-****** Kasutame valmis teenust API. 
 
 ### 🟢 4.3 Kuidas hinnata rakenduse headust?
 Kuidas rakenduse arenduse käigus hinnata rakenduse headust?
 
-> ...
+> Kas vastused on need, mida ootame. Kui tahame saada matemaatika õppeaineid, siis saame matemtika õppeaineid ikka. Ühesõnaga vigade analüüs. Lisame ka testjuhud, kus on eeldetermineeritud promptid ja ainekoodid, mis peaksid välja tulema. 
 
 ### 🟢 4.4 Rakenduse arendus
 Milliste sammude abil on plaanis/on võimalik rakendust järk-järgult parandada (viibadisain, erinevte mudelite testimine jne)?
 
-> ...
+> Kõigepealt on vaja saavutada süsteemi töötavus täies mahus ja vastavus eesmärkidele. Selle järel tuleb veebiarendus ja muud sarnased "deployment" sarnased arendusetapid. Nende sammude käigus on parandamiseks oma sammud. Süsteemi põhjalik testimine on esimese etapi juures suurim fookus. Edasise kasutajani jõudmise juures on alguses testimine ja hiljem kasutajate tagasiside.
 
 
 ### 🟢 4.5 Riskijuhtimine
 Kuidas maandatakse tehisintellektispetsiifilisi riske (hallutsinatsioonid, kallutatus, turvalisus)?
 
-> ...
+> Etteantud kitsendused LLMi jaoks. Sisendite piiramine vahepeal. Piirame väljundit. 
 
 <br>
 <br>
@@ -108,7 +108,7 @@ Fookus: kuidas hinnata loodud lahenduse rakendatavust ettevõttes/probleemilahen
 ### 🔵 5.1 Vastavus eesmärkidele
 Kuidas hinnata, kas rakendus vastab seatud eesmärkidele?
 
-> ...
+> Läbi testide saaks osade eesmärkide saavutatust hinnata. Võimalik oleks ka test-kasutajate tagasiside ja hinnangud. 
 
 <br>
 <br>
@@ -119,9 +119,9 @@ Fookus: kuidas hinnata loodud lahenduse rakendatavust ettevõttes/probleemilahen
 ### 🟣 6.1 Integratsioon
 Kuidas ja millise liidese kaudu lõppkasutaja rakendust kasutab? Kuidas rakendus olemasolevasse töövoogu integreeritakse (juhul kui see on vajalik)?
 
-> ...
+> Lõppkasutaja kasutaks seda omaette veebilehena. võimalik läbi arvuti ja läpka. Telefonivaate implementeerimine on mingis mõttes ka triviaalne. 
 
 ### 🟣 6.2 Rakenduse elutsükkel ja hooldus
 Kes vastutab süsteemi tööshoidmise ja jooksvate kulude eest? Kuidas toimub rakenduse uuendamine tulevikus?
 
-> ...
+> Süsteemi kulud hetkel on mudeli maksumus ja veebilehe maksumus. Nende kulude eest võiks vastutada sama isik, suuremas pildis on tegemist raamatupidamisprobleemiga, aga tegelikult saaks sellega tegeleda "peamine arendaja". 
