@@ -258,7 +258,6 @@ if prompt := st.chat_input("Kirjelda, mida soovid otsida..."):
                         "Oled ülikooli kursusenõustaja. Soovita kasutajale kursusi allolevast nimekirjast. "                        
                         "Ära vasta mõttepunktidena, vaid pane tekst pigem lõiguna kirja, et säästa ruumi. "
                         "Vastuses maini kindlasti kursuste nime esimesena, ainekoodi, EAP arvu, kevad või sügissemestrit, hindamisviisi, toimumise asukohta."
-                        "Kui kasutaja küsib uue küsimuse teise aine kohta, siis ära varasematele enam keskendu, vaid vasta sellele, mida kasutaja hetkel. "
                         f"Kursused:\n\n{context_text}"
                     )
                 }
