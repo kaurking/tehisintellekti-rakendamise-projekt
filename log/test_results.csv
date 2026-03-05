@@ -74,3 +74,177 @@ Kui sa soovid rohkem paindlikku ja iseseisvat vormi, siis **Tervislik liikumisha
 2026-03-02T20:31:00,test_cases.csv,Tahaksin sissejuhatavat kursust neurovõrkude teemal,LTAT.02.001,"ARFS.01.069, MVBS.03.006, LTAT.02.001, SVNC.00.085, ARNR.01.031",1,,1,,"Arvestades, et soovite sissejuhatavat kursust neurovõrkude teemal, siis soovitaksin teile **Tehisnärvivõrgud** (LTAT.02.001). See 6 EAP suurune kursus toimub **kevadsemestril** ja selle hindamismeetod on **eristav (A, B, C, D, E, F, mi)**. Kursust peetakse inglise keeles ja see sobib nii magistri- kui ka doktoriõppe üliõpilastele.
 
 Kursus annab hea ülevaate tehisnärvivõrkude teoreetilistest alustest ja praktilisest rakendamisest, tutvustades erinevaid võrkude tüüpe ja tööriistu. Lõpuks on teil oskus iseseisvalt närvivõrke probleemide lahendamiseks rakendada. See on hea alguspunkt, kui olete neurovõrkudega alles alustamas."
+2026-03-05T16:18:40,test_cases.csv,Soovin õppida masinõpet,"MTAT.03.227, LTAT.02.004","MTAT.03.227, SVNC.00.085, LTAT.02.023, LTAT.02.004, LTAT.02.040",1,,1,,"Tere! Soovitan Sulle järgmisi kursusi, mis sobivad masinõppe õppimiseks, lähtudes Sinu soovist ja pakutud nimekirjast:
+
+**Masinõpe (MTAT.03.227)** on 6 EAP suurune sügissemestri kursus inglise keeles, mille hindamiseks kasutatakse diferentseeritud süsteemi (A, B, C, D, E, F, mi). Kursus toimub põimõppe formaadis magistri- ja doktorinõudes. See kursus annab tugeva teoreetilise ja praktilise aluse masinõppele, keskendudes juhendatud õppe algoritmidele nagu otsustuspuud, lineaarsed mudelid ja neurovõrgud. Õpitud teadmiste kinnistamiseks on kodutöid.
+
+**Masinõpe ja närvivõrgud (SVNC.00.085)** on 3 EAP suurune sügissemestri kursus eesti keeles, hinnatakse eristamata süsteemiga (arv, m.arv, mi). See rakenduskõrgharidusõppe kursus Narvas annab laia sissejuhatuse masinõppesse ja käsitleb nii juhendatud kui ka juhendamata õpet, andmekaevandust ning näidisjuhtumite lahendusi.
+
+**Seletatav automatiseeritud masinõpe (LTAT.02.023)** on 6 EAP suurune sügissemestri kursus inglise keeles, mis kasutab diferentseeritud hindamissüsteemi (A, B, C, D, E, F, mi). See on mõeldud magistri- ja doktorinõudele ja käsitleb automatiseeritud masinõppe raamistikke ning meetodeid mudelite seletamiseks.
+
+**Masinõpe II (LTAT.02.004)** on 6 EAP suurune kevadsemestri kursus inglise keeles, millele on eelduseks kas ""Andmeanalüüs II"", ""Masinõpe"" või ""Tehisõpe I"". Hindamiseks on diferentseeritud süsteem (A, B, C, D, E, F, mi). See kursus süvendab masinõppe teoreetilisi aluseid ja käsitleb erinevaid algoritime ning meetodeid.
+
+**Projektipõhine sissejuhatus masinõppesse (veebikursus) (LTAT.02.040)** on 3 EAP suurune kevadsemestri kursus inglise keeles, mille tulemus on arvestatud või mittearvestatud. See veebikursus on mõeldud erinevate valdkondade tudengitele ja annab praktilise sissejuhatuse masinõppesse mikroloengute ja Pythoni-põhiste kodutööde näitel, kulmineerudes Kaggle-stiilis võistlusega. 
+
+Kui oled algaja, soovitan alustada kursusest **Projektipõhine sissejuhatus masinõppesse (veebikursus)**, et saada praktiline kogemus. Seejärel võid valida **Masinõpe (MTAT.03.227)** sügavama teoreetilise aluse saamiseks või **Masinõpe ja närvivõrgud (SVNC.00.085)** laiemaks ülevaateks. Kui oled juba eelnevaid kursusi läbinud, siis **Masinõpe II (LTAT.02.004)** ja **Seletatav automatiseeritud masinõpe (LTAT.02.023)** pakuvad edasijõudnud teadmisi."
+2026-03-05T16:18:40,test_cases.csv,Otsin programmeerimise kursusi algajatele,"LTAT.03.001, MTAT.03.256","SVNC.00.054, MTAT.03.236, LTAT.03.001, LTAT.03.001_1, MTAT.03.236_1",0,MTAT.03.256,0,MTAT.03.256,"Tere! Programmeerimise algõpetusega tegeleva üliõpilasena soovitaksin Teile kaht kursust:
+
+**MTAT.03.236 Programmeerimise alused (Introduction to Programming)**, ainekood MTAT.03.236, mille mahuks on 3 EAP. See kursus toimub kevad- ja sügissemestri jooksul, hindamisel kasutatakse eristamata süsteemi (arv, m.arv, mi). Kursus on nii bakalaureuse- kui ka magistriõppes õppijatele mõeldud ning toimub eesti ja inglise keeles. See kursus annab hea aluse algoritmiliseks mõtlemiseks ja tutvustab programmeerimise põhivõtteid. Hindamisel arvestatakse kodutöid, praktikumitöid, projekti ja eksamit.
+
+Teiseks soovitaksin **LTAT.03.001 Programmeerimine (Computer Programming)**, ainekood LTAT.03.001, mille mahuks on 6 EAP. See kursus toimub kevad- ja sügissemestri jooksul, hindamisel kasutatakse eristavat süsteemi (A, B, C, D, E, F, mi), kuid sügisel on kursus eesti keeles ja kevadil inglise keeles. Kursus on mõeldud magistriõppes õppijatele, kuid sügissemestri eesti keelse kursus on avatud ka bakalaureuseõppe üliõpilastele. See kursus läheb sügavamale programmeerimise põhikonstruktsioonidesse ja annab oskused algoritmide koostamiseks ja programmide kirjutamiseks. Hindamisel arvestatakse loenguid, praktumeid, projekti ja kahte kontrolltööd ning eksamit."
+2026-03-05T16:18:40,test_cases.csv,Millised andmebaasidega seotud ained on saadaval?,"LTAT.03.004, MTAT.03.105","LTAT.03.004, HVLC.02.005, P2NC.01.096, MTAT.03.105, SVNC.00.307",1,,1,,"Saadaval on mitmeid andmebaasidega seotud aineid.
+
+**Andmebaasid** (LTAT.03.004) on kevadsemestri kursus, mille EAP arv on 6. Hindamine toimub eristava süsteemina (A-F, mi) ja õppekeel on eesti keel. See on bakalaureuseõppe põimõpe ja toimub veebiõppena. Aine keskendub relatsiooniliste andmebaaside põhimõistetele, SQL-keelele ja andmebaasi projekteerimisele.
+
+**Andmebaasisüsteemid** (P2NC.01.096) toimub sügissemestri jooksul ja on 5 EAP suurune. Hindamine on eristav (A-F, mi) ja õppekeel on inglise keel. See on rakenduskõrgharidusõpe veebiõppena Narvas. Kursus keskendub andmemudelite projekteerimisele, andmebaaside arendamisele ja SQL-keelele.
+
+**Andmebaasisüsteemid** (SVNC.00.307) toimub sügissemestri jooksul ja on 6 EAP suurune. Hindamine on eristav (A-F, mi) ja õppekeel on inglise keel. See on bakalaureuseõpe veebiõppena Narvas. Kursus sisaldab andmemudelite projekteerimist ja SQL- keelega töötamist.
+
+**Sissejuhatus andmebaasidesse** (MTAT.03.105) on sügissemestri kursus, mille EAP arv on 3. Hindamine toimub eristamata süsteemina (arv, m.arv, mi) ja õppekeel on eesti keel. See on bakalaureuse- ja magistriõpe põimõppena. Kursus annab põhiteadmised SQL-keelest ja andmebaaside loomisest.
+
+Lisaks on saadaval **Antiikkultuuri ja -keeli puudutavad elektroonilised ressursid** (HVLC.02.005), mis on kevadsemestri kursus, mille EAP arv on 3. Hindamine on eristamata (arv, m.arv, mi) ja õppekeel on nii inglise kui eesti keel. Aine keskendub vanade kultuuride ja keelte andmebaaside ja programmide kasutamisele."
+2026-03-05T16:18:40,test_cases.csv,Tahan õppida tehisintellekti,LTAT.01.003,"LTAT.01.003, LTAT.02.024, OIEO.06.091, LTAT.02.039, FLFI.04.105",1,,1,,"Kui soovite õppida tehisintellekti, siis teile sobivad kindlasti kursused **Tehisintellekt** (LTAT.01.003), mis on 6 EAP suurune kevadsemestri kursus, hindamisel kasutatakse eristavat süsteemi (A-F) ja õpe toimub eesti keeles. See kursus on mõeldud neile, kes soovivad põhjalikult süveneda masinõppe, tehisnärvivõrkude, pilditöötluse ja muude valdkondade sisse. Ettevalmistuseks peaksite omama programmeerimise, algoritmide ja andmestruktuuride aluseid. Samuti on huvitav ja üldisem sissevaade **Tehislik ja loomulik mõistus** (LTAT.02.024), mis on 6 EAP suurune sügissemestri kursus, kus hindamisel kasutatakse eristamata süsteemi (arv, m.arv, mi) ja õpe toimub inglise keeles. See pakub teoreetilist põhja tehisintellekti mõistmiseks ning käsitleb ajuteadust ja psühholoogiat. Lisaks pakub **Tehisintellekti rakendamise projekt** (LTAT.02.039) võimalust tegelikult tehisintellekti lahendusi rakendada, olles 6 EAP suurune kevadsemestri kursus, mille hindamisel kasutatakse eristavat süsteemi ja õpe toimub eesti keeles. Selle eelduseks on programmeerimis- ja masinõppe/andmeteaduse/tehisintellekti alused. Valik sõltub teie eelnevast tasemest ja huvist – kas teoreetilisele alusele keskendumine, praktiline rakendamine või mõlema kombinatsioon."
+2026-03-05T16:18:40,test_cases.csv,Soovitan mulle filosoofia aineid,"FLFI.00.001, FLFI.01.103","FLFI.00.101, FLFI.00.106, FLFI.00.001, FLFI.04.060, FLFI.01.011",0,FLFI.01.103,0,FLFI.01.103,"Tere! Arvestades, et oled filosoofia vastu huvi tundnud, siin on mõned kursused, mis võiksid Sulle sobida:
+
+**Sissejuhatus filosoofiasse (FLFI.00.001)**, 3 EAP, kevadsemestris. Hindamine toimub enesetestide ja kirjaliku testi põhjal. See kursus on hea alguspunkt, mis annab ülevaate filosoofia kesksetest mõistetest, teooriatest ja valdkondadest, ning arendab kriitilist mõtlemist. Kursus toimub Tartu linnas ja on avatud nii bakalaureuse-, magistri- kui ka rakenduskõrgharidusõppe üliõpilastele.
+
+**Sissejuhatus filosoofiaõpingutesse (FLFI.00.106)**, 3 EAP, sügissemestris. Hindamiseks on seminarides osalemine ja kodutööd. See kursus on suunatud filosoofiaõpingute jaoks vajalike oskuste ja pädevuste arendamisele, aitab õpinguid mõtestada ja õppeprotsessi üle reflekteerida. Toimub Tartus ja on mõeldud bakalaureuseõppijatele.
+
+**Vaimufilosoofia (FLFI.04.060)**, 6 EAP, sügissemestris. Hindamine toimub kodutööde ja essee esitamise kaudu. See kursus käsitleb vaimufilosoofia põhiprobleeme nagu keha-vaimu suhe, teadvus ja mõtlemine. Kursus on avatud nii bakalaureuse-, magistri- kui ka doktoriõppe üliõpilastele ja toimub Tartus.
+
+**Esteetika (FLFI.01.011)**, 3 EAP, sügissemestris. Hindamine toimub eksami (essee-referaat) kaudu. See kursus uurib kunsti ja filosoofia dialoogi, keskendudes fenomenoloogiale ja modernismile. Kursus on mõeldud bakalaureuse- ja magistriõppe üliõpilastele ja toimub Tartus.
+
+**Filosoofia didaktika (FLFI.00.101)**, 3 EAP, sügissemestris. Hindamine toimub seminaride läbimise ja kodutööde sooritamise kaudu.  See kursus on mõeldud magistriõppijatele ja varustab oskustega filosoofia õpetamiseks, hõlmates ainekava koostamist, õppemeetodite valikut ja hindamismeetodeid. Toimub Tartus.
+
+Loodan, et need soovitused on Sulle kasulikud! Kui oled juba varem filosoofiat õppinud või tead, millised filosoofia valdkonnad Sind eriti huvitavad, siis saan teha täpsemaid soovitusi."
+2026-03-05T16:18:40,test_cases.csv,Otsin robootika kursust,"LOTI.05.032, LOTI.05.057","LOTI.05.010, LOTI.05.088, LOTI.05.057, LOTI.05.032, SVHI.02.025",1,,1,,"Head robootikahuviline!
+
+Sinule sobivad mitmed õppekavad. Alustuseks soovitan **Robootika I (LOTI.05.010)**, mis on 6 EAP suurune sügissemestri kursus. Hindamine toimub eristava süsteemiga (A-F) ning õpe toimub Tartu linnas. Kursus on mõeldud sissejuhatuseks robotisüsteemidesse, kus kasutatakse Raspberry Pi'd ja GoPiGo platvormi ning programmeerimiskeelena Pythonit. See on hea valik, kui soovid robootika põhialuseid omandada.
+
+Kui oled juba varasemates robootika kursustes osalenud, siis tasub kaaluda **Robootika II (LOTI.05.088)** kursust, mis on 6 EAP suurune kevadsemestri kursus. Ka see toimub eristava hindamise süsteemiga Tartu linnas. Seal arendatakse edasijõudnud tasemel programmeerimisoskust ning süvenetakse keerukamatesse probleemidesse nagu pilditöötlus ja roboti tasakaalu hoidmine.
+
+Veel üks variant on **Robotitehnoloogia (LOTI.05.057)**, mis on 6 EAP suurune kevadsemestri kursus. Hindamisel on kaalukas praktilise osa, tegema pead esitlusi ja sooritama eksami. Selles kursuses antakse ülevaade tänapäevasest robotitehnoloogiast ja kasutatakse robootika platvormi ROS.
+
+Kui otsid rohkem praktilist projekti, siis **Robootika projekt (LOTI.05.032)** võib olla sobiv. See on 6 EAP suurune sügissemestri kursus, kus luuakse 2-4 liikmelised rühmad ja tehakse koostööd konkreetse robootika projekti nimel.
+
+Lõpetuseks, kui oled huvitatud robootika rakendamisest õpetamises, siis **Robootika ja õppeprogrammid I ja II kooliastmes (SVHI.02.025)** 3 EAP suurune kevadsemestri kursus annab hea ülevaate."
+2026-03-05T16:18:40,test_cases.csv,Soovin õppida Pythonis programmeerimist,"HVEE.04.028, HVEE.04.004","HVEE.04.028, P2NC.01.083_1, P2NC.01.083, LTOM.02.041, SVNC.00.228",0,HVEE.04.004,0,HVEE.04.004,"Kui soovid õppida Pythonis programmeerimist, siis soovitaksin alustuseks kahte kursust: **Programmeerimine Pythonis tekstiandmetega** (aine_kood HVEE.04.028) ja **Objektorienteeritud programmeerimine** (aine_kood P2NC.01.083).
+
+**Programmeerimine Pythonis tekstiandmetega** on 3 EAP suurune kevadsemestri kursus, mida hinnatakse eristamata hindega (arv, m.arv, mi). See toimub Tartu linnas lähiõppena ja eeldab Programmeerimise aluste läbimist (MTAT.03.236). Kursus keskendub tekstiandmete töötlemisele Pythonis, andmestruktuuridele, regulaaravaldistele ja veebikraapimisele.
+
+Järgmiseks võiksid kaaluda **Objektorienteeritud programmeerimist** (P2NC.01.083). See on 6 EAP suurune sügis- või kevadsemestri kursus, mille hindamisviis on eristav (A, B, C, D, E, F, mi). See toimub Narva linnas põimõppena ning on mõeldud rakenduskõrgharidusõppe tudengitele. Kursus annab alused objektorienteeritud programmeerimise eripärale ja oskused programmide koostamiseks. Mõlemad kursust on võimalik läbida nii eesti kui ka inglise keeles."
+2026-03-05T16:18:40,test_cases.csv,"Tahaks leida kursust, kus saab maalida",P2VK.04.518,"SVHI.02.024, P2VK.04.518, FLAJ.05.112, MVSF.00.007, HTOS.02.241",1,,0,P2VK.04.518,"Kui oled huvitatud maalimise kursusest, siis soovitaksin kindlasti **Joonistamine ja maalimine õpetajatöös** (SVHI.02.024). See on 3 EAP suurune kursus, mis toimub **sügissemestril** **Tartu linnas**. Hindamisviis on **eristamata** (arv, m.arv, mi) ja õppetase on mõeldud nii bakalaureuse-, magistri- kui ka integreeritud õppijatele. Kursuse eesmärk on erinevate kunstitehnikate kasutamine ja õpetamise metoodika omandamine laste kunstitegevuste juhendamiseks. Õpid erinevaid joonistus- ja maalitehnikaid, teostad loovtöid ja õpid kunstitehnikate juhendamist. Tegemist on lähiõppega."
+2026-03-05T16:18:40,test_cases.csv,"Soovita mulle kursust, kus saab sporti teha","KKSP.00.026, KKSP.00.027","KKSP.00.026, KKSP.00.027, KKSB.01.034, KKSB.01.036, KKSB.01.034_1",1,,0,KKSP.00.027,"Kui oled huvitatud spordist ja liikumisest, siis soovitaksin sinule kindlasti kursust **Spordi terviseks** (KKSP.00.026). See 3 EAP suurune kursus toimub **sügissemestril** ja hindamise viis on **eristamata** (arvestus, mittearvestus, mi). See tähendab, et hindamisel on oluline osalemine praktikumides – vähemalt 50% kohalolek. Kursus toimub **Tartu linnas** ja on avatud **bakalaureuse-, magistri- ja integreeritud õppeprogrammide** üliõpilastele. 
+
+Kursuse eesmärk on toetada kehalist aktiivsust ning kujundada kestlikke liikumisharjumusi. Saad vabalt valida sobivaid liikumisvorme ja osaleda treeningutes vastavalt oma huvidele. 
+
+Teiseks väga hea valik on **Tervislik liikumisharrastus** (KKSB.01.034 või KKSB.01.036, sõltuvalt keelest), mis on 3 EAP suurune ja toimub **kevadsemestril**. See on **veebiõpe**, mis võimaldab paindlikult treeninguid planeerida ja jälgida. Hindamisel on tähtis treeningute dokumenteerimine, kokkuvõtete esitamine ning test Moodle keskkonnas. See kursus on sobiv neile, kes soovivad iseseisvalt treenida ja jälgida oma arengut. KKSB.01.036 on sarnane, kuid toimub **inglise keeles**. Samuti on sügissemestril võimalik valida KKSB.01.034_1, millel on samad tingimused."
+2026-03-05T16:18:40,test_cases.csv,Tahaksin sissejuhatavat kursust neurovõrkude teemal,LTAT.02.001,"ARFS.01.069, MVBS.03.006, LTAT.02.001, SVNC.00.085, ARNR.01.031",1,,1,,"Tere! Arvestades teie sooviga sissejuhatav kursus neurovõrkude teemal, soovitaksin teile kindlasti **Tehisnärvivõrgud** (LTAT.02.001). See kursus on 6 EAP suurune, toimub kevadsemestril ja hindamise viis on eristav (A, B, C, D, E, F, mi). Õpe toimub inglise keeles ja see on mõeldud nii magistri- kui ka doktoriõppele. Kursus katab tehisnärvivõrkude teoreetilisi aluspõhimõtteid ja nende praktilisi rakendusi. Kursuse läbinud õpilane omandab oskuse iseseisvalt närvivõrke probleemidele rakendada ja oskab kasutada tehisnärvivõrkude loomiseks loodud tarkvaralahendusi.
+
+Lisaks võiksite vaadata **Masinõpe ja närvivõrgud** (SVNC.00.085), mis on 3 EAP suurune ja toimub sügissemestril. See kursus on hindamiseks eristamata (arv, m.arv, mi) ja toimub eesti keeles Narva linnas. See kursus pakub laia sissejuhatust masinõppesse ja sisaldab olulist osa närvivõrkude kohta, sealhulgas juhendatud ja juhendamata õpet."
+2026-03-05T16:23:34,test_cases.csv,Soovin õppida masinõpet,"MTAT.03.227, LTAT.02.004","MTAT.03.227, SVNC.00.085, LTAT.02.023, LTAT.02.004, LTAT.02.040",1,,0,LTAT.02.004,"Tere! Kui oled huvitatud masinõppest, siis soovitaksin alustuseks nelja kursust.
+
+**Masinõpe** (MTAT.03.227) on sügissemestri kursus, mille mahuks on 6 EAPd. Hindamine on eristav (A-F), toimub inglise keeles ja õpe on mõeldud magistri- ja doktoriõppijatele. See kursus käsitleb masinõppe põhiprintsiipe ja algoritme, keskendudes juhendatud õppele. 
+
+Samuti sügissemestriks on saadaval **Masinõpe ja närvivõrgud** (SVNC.00.085), mis on 3 EAP suurune. Hindamine on eristamata (arv, m.arv, mi) ja kursus toimub eesti keeles Narvas. See on rakenduskõrgharidusõppe kursus, mis katab juhendatud ja juhendamata õppe meetodeid. 
+
+Kui soovid sügavamat teoreetilist alust, siis **Seletatav automatiseeritud masinõpe** (LTAT.02.023) on hea valik. See 6 EAP suurune kursus toimub sügisel inglise keeles ja on mõeldud magistri- ja doktoriõppijatele.  See keskendub automatiseeritud masinõppe põhikontseptsioonidele ja optimeerimismeetoditele.
+
+Lõpuks, kui otsid praktilisemat lähenemist, siis **Projektipõhine sissejuhatus masinõppesse (veebikursus)** (LTAT.02.040) on kevadsemestri kursus, mille mahuks on 3 EAPd. Hindamine on eristamata ja õpe toimub veebis. See sobib nii bakalaureuse-, magistri- kui ka rakenduskõrgharidusõppijatele ning pakub praktilist kogemust masinõppe rakendamisel.
+
+Kõikide kursuste kohta leiad täiendavat informatsiooni ülikooli veebilehel."
+2026-03-05T16:23:34,test_cases.csv,Otsin programmeerimise kursusi algajatele,"LTAT.03.001, MTAT.03.256","SVNC.00.054, MTAT.03.236, LTAT.03.001, LTAT.03.001_1, MTAT.03.236_1",0,MTAT.03.256,0,"LTAT.03.001, MTAT.03.256","Tere! Kui oled programmeerimisega alles alustamas, soovitaksin kahte kursust: **Programmeerimise alused** (MTAT.03.236) ja **Programmeerimine** (SVNC.00.054).
+
+**Programmeerimise alused** (MTAT.03.236) on 3 EAP suurune kursus, mida pakutakse nii kevad- kui ka sügissemestris. Õppekeel on nii eesti kui inglise keel. Hindamisel kasutatakse eristamata süsteemi (arv, m.arv, mi). Kursus toimub veebis ja on mõeldud nii bakalaureuse- kui ka magistriõppeüliõpilastele. See kursus annab väga head algusteadmised algoritmilisest mõtlemisest ja põhilistest programmeerimisvõtetest.
+
+Teine variant on **Programmeerimine** (SVNC.00.054), mis on 6 EAP suurune ja toimub kevadsemestris. See kursus on inglise keeles ja toimub Narvas. Hindamisel kasutatakse eristavat süsteemi (A, B, C, D, E, F, mi). See kursus annab põhjalikud teadmised programmeerimisest ja on mõeldud rakenduskõrgharidusõppeüliõpilastele.
+
+Mõlemad kursused käsitlevad programmeerimise põhikonstruktsioone, nagu muutujaid, avaldisi, tingimuslauseid ja tsükleid. Mõlemad aitavad sul mõista algoritmi mõistmist ja esitusviise."
+2026-03-05T16:23:34,test_cases.csv,Millised andmebaasidega seotud ained on saadaval?,"LTAT.03.004, MTAT.03.105","LTAT.03.004, HVLC.02.005, P2NC.01.096, MTAT.03.105, SVNC.00.307",1,,1,,"Ülikoolis on hetkel saadaval neli andmebaasidega seotud ainet:
+
+*   **Andmebaasid** (LTAT.03.004) – 6 EAP, kevadsemester, hindamisviis eristav (A-F, mi), õppekeel eesti, põimõpe. Kursus annab ülevaate relatsiooniliste andmebaaside loomisest ja käsitlemisest ning tutvub relatsiooniliste andmebaaside teooria alustega.
+*   **Andmebaasisüsteemid** (P2NC.01.096) – 5 EAP, sügissemester, hindamisviis eristav (A-F, mi), õppekeel inglise, rakenduskõrgharidusõpe, veebiõpe, toimumiskoht Narva linn. Aine keskendub andmemudelite projekteerimisele ja SQL-keelega töötamisele.
+*   **Andmebaasisüsteemid** (SVNC.00.307) – 6 EAP, sügissemester, hindamisviis eristav (A-F, mi), õppekeel inglise, bakalaureuseõpe, veebiõpe, toimumiskoht Narva linn. Sarnaselt eelnevale, keskendutakse andmemudelite projekteerimisele, andmebaaside loomisele ja SQL-keelele.
+*   **Sissejuhatus andmebaasidesse** (MTAT.03.105) – 3 EAP, sügissemester, hindamisviis eristamata (arv, m.arv, mi), õppekeel eesti, bakalaureuse- ja magistriõpe, põimõpe. See kursus on hea algus neile, kel puuduvad varasemad teadmised andmebaaside kohta, tutvustades SQL-i põhimehaanikat ja andmebaaside modelleerimist.
+
+Lisaks on saadaval **Antiikkultuuri ja -keeli puudutavad elektroonilised ressursid** (HVLC.02.005), mis tutvustab andmebaase, mis on abiks vanade kultuuride ja keelte õppimisel."
+2026-03-05T16:23:34,test_cases.csv,Tahan õppida tehisintellekti,LTAT.01.003,"LTAT.01.003, LTAT.02.024, OIEO.06.091, LTAT.02.039, FLFI.04.105",1,,1,,"Tere! Kui oled huvitatud tehisintellektist, siis sinule sobiksid järgmised kursused:
+
+**LTAT.01.003 Tehisintellekt** (aine_kood LTAT.01.003), mis on 6 EAP suurune ja toimub kevadsemestril. Hindamisviisiks on eristav (A, B, C, D, E, F, mi) ja õppekeel on eesti keel. Kursus toimub veebiopena ning on mõeldud bakalaureuseõppijatele. Eelduseks on põimõpe (Programmeerimine Pythonis tekstiandmetega VÕI Algoritmid ja andmestruktuurid VÕI Programmeerimine). See kursus annab põhjaliku ülevaate masinõppest, tehisnärvivõrkudest, pilditöötlusest, kõnetöötlusest ja loomuliku keele protsessideks.
+
+**LTAT.02.024 Tehislik ja loomulik mõistus** (aine_kood LTAT.02.024) on 6 EAP suurune ja toimub sügissemestril. Hindamisviisiks on eristamata (arv, m.arv, mi) ja õppekeel on inglise keel. Kursus on mõeldud bakalaureuse-, magistri- ja doktoriõppijatele ning toimub veebiopena. See kursus vaatleb tehisintellekti, ajuteadust ja psühholoogiat ning nende omavahelist seost.
+
+**LTAT.02.039 Tehisintellekti rakendamise projekt** (aine_kood LTAT.02.039), mis on 6 EAP suurune ja toimub kevadsemestril. Hindamisviisiks on eristav (A, B, C, D, E, F, mi) ja õppekeel on eesti keel. Kursus on mõeldud bakalaureuse- ja magistriõppijatele ning toimub lähiõppena. Eelduseks on Programmeerimine ja kas Masinõpe VÕI Sissejuhatus andmeteadusesse VÕI Tehisintellekt. Selles kursuses saad rakendada saadud teadmisi praktilises projektis.
+
+Lisaks veel, kui sooviksid tehisintellekti ja õiguse seoseid uurida, siis sobiks sinule ka:
+
+**OIEO.06.091 Tehisintellekt ja õigus** (aine_kood OIEO.06.091), mis on 3 EAP suurune ja toimub sügissemestril. Hindamisviis on eristav (A, B, C, D, E, F, mi) ja õppekeel on inglise keel. Kursus toimub Tartu linnas ja on mõeldud magistriõppijatele. Eelduseks on Bakalaureuseeksam VÕI Lõputöö."
+2026-03-05T16:48:51,test_cases.csv,Soovin õppida masinõpet,"MTAT.03.227, LTAT.02.004","MTAT.03.227, SVNC.00.085, LTAT.02.023, LTAT.02.004, LTAT.02.040",1,,0,LTAT.02.004,"Tere! Suurepärane valik, masinõpe on väga põnev ja perspektiivne valdkond. Teie soovist lähtudes soovitaksin Teile järgmisi kursusi:
+
+**MTAT.03.227 Masinõpe (Machine Learning)**, ainekood MTAT.03.227, 6 EAP, sügissemester. Hindamismeetod on eristav (A, B, C, D, E, F, mi). Kursus toimub inglise keeles ja on mõeldud magistri- ja doktoriõppijatele. See on hea põhjalik sissejuhatus masinõppe metoodikatesse ja algoritmidesse, keskendudes juhendatud õppele. Pange tähele, et see kursus eeldab mõningast programmeerimisalast tausta.
+
+Kui otsite veidi lihtsamalt sissejuhatavat ja rohkem praktilist lähenemist, siis soovitan **SVNC.00.085 Masinõpe ja närvivõrgud (Machine Learning and Neural Networks)**, ainekood SVNC.00.085, 3 EAP, sügissemester. Hindamismeetod on eristamata (arv, m.arv, mi). See kursus toimub eesti keeles Narvas ja on mõeldud rakenduskõrgharidusõppijatele. Kursus katab nii juhendatud kui ka juhendamata õppe meetodeid ning rõhuasetusega praktilisel rakendamisel, näiteks nutirobotite ja arvutinägemise valdkonnas.
+
+Lisaks põhikursustele võite kaaluda **LTAT.02.040 Projektipõhine sissejuhatus masinõppesse (Project-Based Introduction to Machine Learning)**, ainekood LTAT.02.040, 3 EAP, kevadsemester. Hindamismeetod on eristamata (arv, m.arv, mi). See veebikursus on ideaalne neile, kellel on vähem matemaatiline taust või kes soovivad masinõpet õppida praktilise lähenemise kaudu – kursus kulmineerub Kaggle-stiilis võistlusega. See on avatud nii bakalaureuse-, magistri- kui ka rakenduskõrgharidusõppijatele.
+
+Kui olete juba läbinud mõne sissejuhatava masinõppe kursuse, siis huvipakkuv võib olla **LTAT.02.023 Seletatav automatiseeritud masinõpe (Explainable Automated Machine Learning)**, ainekood LTAT.02.023, 6 EAP, sügissemester. Hindamismeetod on eristav (A, B, C, D, E, F, mi). See kursus on inglise keeles ja mõeldud magistri- ja doktoriõppijatele, et tutvuda automatiseeritud masinõppe ja mudelite seletatavusega.
+
+Soovitan Teil vaadata iga kursuse täielikku kirjeldust ülikooli veebilehel, et veenduda, kas see sobib Teie tasemega ja eesmärkidega."
+2026-03-05T16:48:51,test_cases.csv,Otsin programmeerimise kursusi algajatele,"LTAT.03.001, MTAT.03.256","SVNC.00.054, MTAT.03.236, LTAT.03.001, LTAT.03.001_1, MTAT.03.236_1",0,MTAT.03.256,0,"LTAT.03.001, MTAT.03.256","Kui oled programmeerimisega alles alustamas, siis soovitaksin kahte kursust: **MTAT.03.236 Programmeerimise alused** (**aine_kood**: MTAT.03.236) ja **MTAT.03.236_1 Programmeerimise alused** (**aine_kood**: MTAT.03.236_1). 
+
+Mõlemad on 3 EAP suurused ning mõeldud nii bakalaureuse- kui ka magistriõppe taseme üliõpilastele. MTAT.03.236 toimub kevadsemestris ja hindamise viis on eristamata (arv, m.arv, mi), õppekeel on eesti keel. MTAT.03.236_1 toimub sügissemestris ja hindamise viis on samuti eristamata, kuid õppekeel on inglise keel. 
+
+Kõnealused kursused annavad algtõed algoritmilisest mõtlemisest ja tutvustavad programmeerimise põhivõtteid. Kursuse läbinud üliõpilane oskab lihtsaid ülesandeid arvutiprogrammina realiseerida ja on motiveeritud arvutit programmeerimiseks kasutama."
+2026-03-05T16:48:51,test_cases.csv,Millised andmebaasidega seotud ained on saadaval?,"LTAT.03.004, MTAT.03.105","LTAT.03.004, HVLC.02.005, P2NC.01.096, MTAT.03.105, SVNC.00.307",1,,1,,"Ülikoolis on hetkel saadaval neli andmebaasidega seotud ainet:
+
+*   **Andmebaasid** (LTAT.03.004) – 6 EAP, kevadsemester, hindamisviis eristav (A, B, C, D, E, F, mi), õppekeel eesti keel, mõeldud bakalaureuse õppijatele. Fokus on relatsiooniliste andmebaaside loomisel ja käsitlemisel.
+*   **Andmebaasisüsteemid** (P2NC.01.096) – 5 EAP, sügissemester, hindamisviis eristav (A, B, C, D, E, F, mi), õppekeel inglise keel, mõeldud rakenduskõrgharidusõpe õppijatele Narva linnas veebiõppes. Käsitletakse andmemudelite projekteerimist ning SQL-keelega töötamisel.
+*   **Sissejuhatus andmebaasidesse** (MTAT.03.105) – 3 EAP, sügissemester, hindamisviis eristamata (arv, m.arv, mi), õppekeel eesti keel, mõeldud bakalaureuse- ja magistriõppijatele. Annab ülevaate SQL-keelest ja andmebaaside põhimõistetest.
+*   **Andmebaasisüsteemid** (SVNC.00.307) – 6 EAP, sügissemester, hindamisviis eristav (A, B, C, D, E, F, mi), õppekeel inglise keel, mõeldud bakalaureuse õppijatele Narva linnas veebiõppes. Sama sisu nagu P2NC.01.096-l.
+
+Lisaks on kursus **Antiikkultuuri ja -keeli puudutavad elektroonilised ressursid** (HVLC.02.005), mis puudutab ka andmebaase (kuid keskendub vanade kultuuride ja keeltega seotud ressurssidele)."
+2026-03-05T16:48:51,test_cases.csv,Tahan õppida tehisintellekti,LTAT.01.003,"LTAT.01.003, LTAT.02.024, OIEO.06.091, LTAT.02.039, FLFI.04.105",1,,1,,"Sel juhul on sinu jaoks väga huvitavaks kursuseks **Tehisintellekt (LTAT.01.003)**. See on 6 EAP suurune kursus, mis toimub **kevadsemestril**. Hindamisel kasutatakse eristavat süsteemi (A, B, C, D, E, F, mi). Kursus toimub **eesti keeles** ja on mõeldud **bakalaureuseõppe** tudengitele, õpe toimub **põimõppena**. 
+
+Kursuse eelduseks on kas programmeerimine Pythonis tekstiandmetega (HVEE.04.028), Algoritmid ja andmestruktuurid (LTAT.03.005) või lihtsalt programmeerimine (LTAT.03.001). 
+
+Kursuses keskendutakse masinõppele, tehisnärvivõrkudele, pilditöötlusele, kõneliidesedele ja loomuliku keele töötlusele. Saab tutvuda nii teoreetiliste põhjadega kui ka praktiseerida ülesannete lahendamist.
+
+Lisaks sellele, kui oled huvitatud filosoofilisematest aspektidest, võiks vaadata ka kursust **Tehislik ja loomulik mõistus (LTAT.02.024)**, mis toimub **sügissemestril**. See on samuti 6 EAP suurune ja kasutab eristamata hindamissüsteemi (arv, m.arv, mi). See kursus on mõeldud bakalaureuse-, magistri- ja doktoriõppe tudengitele ja käsitleb tehisintellekti, ajuteadust ja psühholoogiat."
+2026-03-05T17:04:54,test_cases.csv,Soovin õppida masinõpet,"MTAT.03.227, LTAT.02.004","MTAT.03.227, SVNC.00.085, LTAT.02.023, LTAT.02.004, LTAT.02.040",1,,1,,"Tere! Kui soovid õppida masinõpet, siis pakun sulle järgmisi kursusi, mis sobiksid sinu sooviga.
+
+**Masinõpe (MTAT.03.227)** on sügissemestri kursus, mille maht on 6 EAPd. Hindamisel kasutatakse eristavat süsteemi (A-F ja mi), õppekeel on inglise ning kursus on mõeldud magistri- ja doktoriõppijatele. See kursus annab põhjaliku ülevaate masinõppe printsiipidest ja algoritmide kohta, keskendudes juhendatud õppele. Õpe toimub põhjaõppes.
+
+**Masinõpe ja närvivõrgud (SVNC.00.085)** on samuti sügissemestri kursus, mille maht on 3 EAPd. Hindamisel kasutatakse eristamata süsteemi (arv, m.arv, mi) ja õppekeel on eesti keel. See kursus on mõeldud rakenduskõrgharidusõppijatele ja toimub Narvas lähiõppena. See pakub laiemat sissejuhatust masinõppesse ja hõlmab ka närvivõrkude teemat.
+
+**Seletatav automatiseeritud masinõpe (LTAT.02.023)** on 6 EAPd sügissemestri kursus inglise keeles, mõeldud magistri ja doktoriõppijatele. Hindamismeetod on eristav (A-F ja mi). Kursus keskendub automatiseeritud masinõppe ja mudelite seletamise meetoditele. Õpe toimub põhjaõppes.
+
+**Masinõpe II (LTAT.02.004)** on kevadsemestri kursus, mille maht on 6 EAPd. Hindamisel kasutatakse eristavat süsteemi (A-F ja mi) ja õppekeel on inglise keel. See kursus on mõeldud magistriõppijatele ja eeldab eelnevaid teadmisi masinõppest (näiteks kursus MTAT.03.227). Õpe toimub lähiõppena.
+
+**Projektipõhine sissejuhatus masinõppesse (LTAT.02.040)** on 3 EAPd kevadsemestri kursus, mille õppekeel on inglise keel. See on mõeldud nii bakalaureuse-, magistri- kui ka rakenduskõrgharidusõppijatele ja toimub veebis. Kursus on praktiline ja põhineb projektidel, mis sobivad hästi algajatele. Hindamine on lihtne - kursus on läbitud/mitte läbitud.
+
+Algajale soovitaksin alustada **Projektipõhine sissejuhatus masinõppesse (LTAT.02.040)**, kuna see on paindlik, praktiline ja annab hea ülevaate. Seejärel võid jätkata **Masinõppe (MTAT.03.227)** või **Masinõpe ja närvivõrgud (SVNC.00.085)** kursusega, sõltuvalt sinu eesmärkidest ja eelnevast haridusest. Kui soovid sügavamaid teadmisi, siis **Masinõpe II (LTAT.02.004)** ja **Seletatav automatiseeritud masinõpe (LTAT.02.023)** on head valikud."
+2026-03-05T17:04:54,test_cases.csv,Otsin programmeerimise kursusi algajatele,"LTAT.03.001, MTAT.03.256","SVNC.00.054, MTAT.03.236, LTAT.03.001, LTAT.03.001_1, MTAT.03.236_1",0,MTAT.03.256,0,MTAT.03.256,"Tere! Programmeerimise algõpetamiseks soovitaksin järgmisi kursusi:
+
+**MTAT.03.236 Programmeerimise alused (Introduction to Programming)** – See 3 EAP suurune kursus toimub kevad- ja sügissemestril. Hindamine on eristamata (arv, m.arv, mi) ja õppekeel on nii eesti kui inglise. Kursus on mõeldud bakalaureuse- ja magistriõppele ning annab põhialused algoritmilisest mõtlemisest ja tutvustab programmeerimisvõtteid. Eesmärk on motiveerida üliõpilasi arvutit kasutama ja lihtsaid ülesandeid programmeerima. Hindamisel on tähtis kodutööde, praktikumide, projekti ja eksami tulemus.
+
+**SVNC.00.054 Programmeerimine (Computer Programming)** – See 6 EAP suurune kursus toimub kevadsemestril Narvas. Hindamine on eristav (A, B, C, D, E, F, mi) ja õppekeel on inglise. Kursus on rakenduskõrgharidusõppe tase ja on mõeldud põimõppele. See kursus katab programmeerimise põhikonstruktsioonid ja algoritmide koostamise ning arendamise. Hindamisel on oluline teatatakse õppejõu poolt esimesel loengul.
+
+Lisaks on sügissemestril ka kättesaadav **LTAT.03.001 Programmeerimine (Computer Programming)**, mis on samasisuline kursus nagu SVNC.00.054, kuid toimub bakalaureuseõppele ja on eesti keeles.
+
+Kõik need kursused annavad hea aluse programmeerimisega alustamiseks. Kui oled algaja, siis **MTAT.03.236 Programmeerimise alused** võiks olla hea koht alustamiseks, kuna see on lühike ja annab põhilised kontseptid."
+2026-03-05T17:04:54,test_cases.csv,Millised andmebaasidega seotud ained on saadaval?,"LTAT.03.004, MTAT.03.105","LTAT.03.004, HVLC.02.005, P2NC.01.096, MTAT.03.105, SVNC.00.307",1,,1,,"Kui oled huvitatud andmebaasidega seotud ainetest, siis hetkel on saadaval järgmised kursused:
+
+**Andmebaasid** (LTAT.03.004), mille maht on 6 EAPd ja toimub kevadsemestril. Hindamine on eristav (A, B, C, D, E, F, mi) ja õppekeel on eesti. Kursus toimub põimõppes. Aine eesmärk on anda ülevaade relatsiooniliste andmebaaside loomisest ja käsitlemisest ning tutvuda relatsiooniliste andmebaaside teooria alustega.
+
+**Antiikkultuuri ja -keeli puudutavad elektroonilised ressursid** (HVLC.02.005) on 3 EAP suurune kursus, mis toimub kevadsemestril. Hindamine on eristamata (arv, m.arv, mi). Õppekeel on inglise ja eesti keel. See kursus tutvustab ja õpetab kasutama olulisi andmebaase ja programme, mis on seotud antiikkultuuride ja keeltega.
+
+**Andmebaasisüsteemid** (P2NC.01.096) on 5 EAP suurune kursus, mis toimub sügissemestril Narva linnas. Hindamine on eristav (A, B, C, D, E, F, mi) ja õppekeel on inglise. See kursus käsitleb andmemudelite projekteerimist ning SQL-keelt.
+
+**Sissejuhatus andmebaasidesse** (MTAT.03.105) on 3 EAP suurune kursus, mis toimub sügissemestril. Hindamine on eristamata (arv, m.arv, mi) ja õppekeel on eesti. See kursus annab põhilised teadmised relatsioonilistest andmebaasidest ja SQL-keelest.
+
+**Andmebaasisüsteemid** (SVNC.00.307) on 6 EAP suurune kursus, mis toimub sügissemestril Narva linnas. Hindamine on eristav (A, B, C, D, E, F, mi) ja õppekeel on inglise. See kursus käsitleb andmemudelike projekteerimist ja SQL-keelt."
+2026-03-05T17:04:54,test_cases.csv,Tahan õppida tehisintellekti,LTAT.01.003,"LTAT.01.003, LTAT.02.024, OIEO.06.091, LTAT.02.039, FLFI.04.105",1,,1,,"Kui oled huvitatud tehisintellektist, siis soovitaksin sulle kahte kursust. 
+
+**LTAT.01.003 Tehisintellekt (Artificial Intelligence)** on 6 EAP suurune kevadsemestri kursus, mida õpetatakse eesti keeles. Hindamisviis on eristav (A, B, C, D, E, F, mi). Kursus toimub veebiopena ja eeldab eelnevaid teadmisi programmeerimisest (Programmeerimine Pythonis tekstiandmetega, Algoritmid ja andmestruktuurid või Programmeerimine). See kursus annab põhjaliku ülevaate masinõppest, tehisnärvivõrkudest, pilditöötlusest, kõnetöötlusest ja loomuliku keele töötlusest.
+
+Teine variant on **LTAT.02.024 Tehislik ja loomulik mõistus (Artificial and Natural Intelligence)**, mis on 6 EAP suurune sügissemestri kursus, mida õpetatakse inglise keeles. Hindamine on eristamata (arv, m.arv, mi). See kursus on laiem ja uurib tehisintellekti, ajuteadust ja psühholoogiat ning nende omavahelist seost. See sobib hästi, kui sind huvitavad tehisintellekti filosoofilised ja teoreetilised aspektid."

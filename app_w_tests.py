@@ -479,5 +479,5 @@ with st.sidebar:
     st.markdown("---")
     st.markdown("### Sessiooni statistika")
     st.write("Sisendtokenid:", st.session_state.stats["tokens_in"])
-    st.write("Tokens out:", st.session_state.stats["tokens_out"])
-    st.write("Cost (€):", round(st.session_state.stats["cost"], 6))
+    st.write("Väljundtokenid:", st.session_state.stats["tokens_out"])
+    st.write("Hind (€):", round(st.session_state.stats["cost"], 6))
